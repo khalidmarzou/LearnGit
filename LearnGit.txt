@@ -1,0 +1,49 @@
+
+user@DESKTOP-MARZOUG MINGW64 /k/github
+$ git config user.name
+khalid marzoug
+
+user@DESKTOP-MARZOUG MINGW64 /k/github
+$ git config user.email
+KHALIDMARZOUG9@gmail.com
+
+user@DESKTOP-MARZOUG MINGW64 /k/github
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+user@DESKTOP-MARZOUG MINGW64 /k/github
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+user@DESKTOP-MARZOUG MINGW64 /k/github
+$ git init
+Initialized empty Git repository in K:/github/.git/
+
+user@DESKTOP-MARZOUG MINGW64 /k/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+user@DESKTOP-MARZOUG MINGW64 /k/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LearnGit.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user@DESKTOP-MARZOUG MINGW64 /k/github (master)
+$ git add .
+
+user@DESKTOP-MARZOUG MINGW64 /k/github (master)
+$ git commit -m "First Commit"
+[master (root-commit) 061c023] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 LearnGit.txt
